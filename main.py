@@ -45,4 +45,4 @@ with ui.row().classes('w-full h-screen items-center justify-center'):
                     else:
                         ui.button(btn,on_click=lambda b=btn:keyboard(b)).props('unelevated color=indigo-3').style('width:10.6vh;height:10.6vh;')
 
-ui.run()
+ui.run(title='SimpleCalculator',host='0.0.0.0',port=8080)
